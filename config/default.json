@@ -1,0 +1,12 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "postgres": "postgres://postgres:@localhost:5432/feathers",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "q9uiEzfZ/rlt3BElffGqGxXLnzqhjz4jG/8LgcHOBWJQcn4Hn36DeB9VTmw8y9Yieq6pQGUt7ZYqEkdlmqB4Kw=="
+    },
+    "local": {}
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "host": "feathers-todomvc-app.feathersjs.com",
+  "port": 80,
+  "sqlite": "SQLITE_DB",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "FEATHERS_AUTH_SECRET"
+    },
+    "local": {}
+  }
+}
