@@ -13,7 +13,7 @@ module.exports = function() {
   // just like Express the order matters, so error
   // handling middleware should go last.
   const app = this;
-
+  
   app.use(universalRedux.renderer(universalConfig));
 
   app.use(notFound());
