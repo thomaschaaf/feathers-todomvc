@@ -64,7 +64,7 @@
     "sqlite3": "^3.1.2",
     "style-loader": "^0.13.1",
     "todomvc-app-css": "^2.0.4",
-    "universal-redux": "^3.0.3",
+    "universal-redux": "git+ssh://git@github.com/thomaschaaf/universal-redux.git#feature/req",
     "winston": "^2.2.0"
   },
   "devDependencies": {

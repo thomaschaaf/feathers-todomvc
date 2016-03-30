@@ -1,7 +1,6 @@
 'use strict';
 
 const app = require('./app');
-const port = 3031;
 
 const server = app.setup();
    

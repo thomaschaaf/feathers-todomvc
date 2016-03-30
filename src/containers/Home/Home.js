@@ -2,21 +2,6 @@ import React, {Component} from 'react';
 import DocumentMeta from 'react-document-meta';
 import { IndexLink } from 'react-router';
 
-if(__SERVER__ == false) {
-    
-const feathers = require('feathers/client')
-const socketio = require('feathers-socketio/client');
-const hooks = require('feathers-hooks');
-const io = require('socket.io-client');
-
-const socket = io();
-const app = feathers()
-  .configure(hooks())
-  .configure(socketio(socket));
-  
-  app.service('todos').get(2).then(todo => console.log(todo));
-}
-
 //
 
 
